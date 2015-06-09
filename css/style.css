@@ -1,3 +1,127 @@
 body {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Muli', sans-serif;
 }
+
+.navbar-default .navbar-brand {
+	color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #fff;
+	font-size: 14px;
+}
+
+.jumbotron {
+	background-image: url("../img/overlay-pattern.png");
+	background-repeat: repeat;
+	text-align: center;
+	color : #fff;
+}
+
+.jumbotron h1 {
+	font-size : 50px;
+	margin-top : 100px;
+	margin-bottom: 0px;
+}
+
+nav a {
+	position: relative;
+	display: inline-block;
+	margin: 0;
+	outline: none;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 400;
+	text-shadow: 0 0 1px rgba(255,255,255,0.3);
+	font-size: 1.35em;
+}
+
+nav a:hover,
+nav a:focus {
+	outline: none;
+	color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
+	color: #fff;
+}
+
+/* Menu effects (brackets) */
+.menu-animated a::before,
+.menu-animated a::after {
+	display: inline-block;
+	opacity: 0;
+	-webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
+	-moz-transition: -moz-transform 0.3s, opacity 0.2s;
+	transition: transform 0.3s, opacity 0.2s;
+}
+
+.menu-animated a::before {
+	margin-right: 10px;
+	content: '[';
+	-webkit-transform: translateX(20px);
+	-moz-transform: translateX(20px);
+	transform: translateX(20px);
+}
+
+.menu-animated a::after {
+	margin-left: 10px;
+	content: ']';
+	-webkit-transform: translateX(-20px);
+	-moz-transform: translateX(-20px);
+	transform: translateX(-20px);
+}
+
+.menu-animated a:hover::before,
+.menu-animated a:hover::after,
+.menu-animated a:focus::before,
+.menu-animated a:focus::after {
+	opacity: 1;
+	-webkit-transform: translateX(0px);
+	-moz-transform: translateX(0px);
+	transform: translateX(0px);
+}
+
+/* Button styles  */
+.btn {
+	border: none;
+	font-family: inherit;
+	font-size: 15px;
+	color: inherit;
+	background: none;
+	cursor: pointer;
+	padding: 25px 80px;
+	display: inline-block;
+	margin: 15px 30px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	outline: none;
+	position: relative;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.btn:after {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.btn-animated {
+	color: #fff;
+}
+
+/* Button 1a */
+.btn-animated:hover,
+.btn-animated:active {
+	background: #fff;
+}
+
+
