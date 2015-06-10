@@ -61,7 +61,7 @@
         <!-- /.container -->
     </nav>
     <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
+    <div id="page-top" class="jumbotron">
       <div class="container">
       	<h1>Fact-Checking</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur</p>
@@ -78,21 +78,10 @@
       <div class="row featurette">
         <div class="col-md-7">
           <h2 class="featurette-heading">Lorem <span class="text-muted">Ipsum.</span></h2>
+          <span class="author">Author Mcauthor </span> <span class="pull-right author">12/07/2015</span>
           <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block" src="img/placehold.gif" width="200px" height="200px" alt="Generic placeholder image">
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7 col-md-push-5">
-          <h2 class="featurette-heading">Lorem <span class="text-muted">Ipsum.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-5 col-md-pull-7">
           <img class="featurette-image img-responsive center-block" src="img/placehold.gif" width="200px" height="200px" alt="Generic placeholder image">
         </div>
       </div>
@@ -102,6 +91,7 @@
       <div class="row featurette">
         <div class="col-md-7">
           <h2 class="featurette-heading">Lorem <span class="text-muted">Ipsum.</span></h2>
+          <span class="author">Author Mcauthor </span> <span class="pull-right author"> 14/07/2015</span>
           <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
         </div>
         <div class="col-md-5">
@@ -109,16 +99,63 @@
         </div>
       </div>
 
-      
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Lorem Ipsum.</h2>
+          <span class="author">Author Mcauthor </span> <span class="pull-right author"> 22/07/2015 </span>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" src="img/placehold.gif" width="200px" height="200px" alt="Generic placeholder image">
+        </div>
+      </div>
+        </div> <!-- /container -->  
 
       <!-- /END THE FEATURETTES -->
-
-      <hr>
-
+	  <div class="newsletter">
+	  	<div class="container">
+	  		<div class="row">
+	  	<div class="col-md-12">
+          <h1>Newsletter</h1>
+        </div>
+       </div>
+       <div class="row">
+	  	<div class="col-md-6">
+          <p class="lead">Restez informés en vous inscrivant à la Newsletter. </p>
+        </div>
+        <div class="col-md-6">
+          <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required>
+          <a class="btn btn-animated" href="#" role="button">Valider &raquo;</a>
+        </div>
+	  </div>
+	  	</div>
+	</div> <!-- ./ NEWSLETTER -->
       <footer>
-        <p>&copy; Capdema 2015</p>
+      	<div class="container">
+      	<div class="row">
+      		<div class="col-md-12 copyright">&copy; Capdema 2015</div>
+      	</div>
+      		<div class="row">
+      			<div id="social_media_buttons" class="col-md-12 social"> 
+      			<a href="#" data-hover="F" class="social">
+      				F
+      			</a>
+      			<a href="#" data-hover="T" class="social">
+      				T
+      			</a>
+      			<a href="#" data-hover="l" class="social">
+      				l
+      			</a>
+      			<a href="#" data-hover="g" class="social">
+      				g
+      			</a>
+      		</div>
+      		</div>
+      	</div>
       </footer>
-    </div> <!-- /container -->
+
 
   <!-- Placed at the end of the document so the pages load faster -->
   <!-- Bootstrap core JavaScript
