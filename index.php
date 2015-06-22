@@ -71,8 +71,17 @@
         </div>
     </div>
     <div class="row">
-       <h1>Test</h1>
         <div class="container">
+            <div class="row">
+                <ol class="nav navbar-nav">
+                    <li><a href="#">Lorem</a>
+                    </li>
+                    <li><a href="#">Ipsum</a>
+                    </li>
+                    <li><a href="#">Dolor</a>
+                    </li>
+                </ol>
+            </div>
             <hr class="featurette-divider">
             <div class="col-md-9">
                 <!-- START THE FEATURETTES -->
