@@ -1,4 +1,5 @@
-<div class="col-md-9">
+<?php get_header(); ?>
+   <div class="col-md-9">
     <!-- START THE FEATURETTES -->
 
     <div class="row featurette">
@@ -39,8 +40,9 @@
     </div>
     <!-- /END THE FEATURETTES -->
 </div>
-
+<?php get_sidebar(); ?>
 
 </div>
 <!-- /container -->
 </div>
+<?php get_footer(); ?>
