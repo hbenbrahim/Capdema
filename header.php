@@ -7,15 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="author" content="Hamza Benbrahim - Webuildmedia">
     <link rel="icon" href="img/favicon.ico">
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/scrolling-nav.css" rel="stylesheet">
+    <!-- Core CSS -->
+    <link href="<?php bloginfo('stylesheet_url'); ?>" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href='http://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
-    <link href="css/style.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -63,8 +61,9 @@
     </nav>
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div id="page-top" class="jumbotron">
+       <img src="img/backgroundImg.jpg">
         <div class="container">
-            <h1>Fact-Checking</h1>
+            <h1>L'arbitre Fact-Checking</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur</p>
             <p><a class="btn btn-animated" href="#" role="button">Nos Articles &raquo;</a>
             </p>
